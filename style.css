@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgb(213, 209, 187),rgb(237, 232, 199), rgba(240,238,226,1));
+    display: flex;
+    font-family: gilroy;
+}
+nav{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+    border-right:1px solid gray;
+}
+.logo{
+    width:40px;
+    height: 40px;
+}
+.logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.center > span > i{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+.menu{
+    font-size:30px;
+}
+.middle{
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    padding:10px 30px;
+}
+.search {
+    padding:20px 5px;
+    padding-bottom:5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    width:40%;
+    margin-bottom: 20px;
+}
+.head{
+    width:45%;
+}
+.head > h1{
+    font-size: 40px;
+}
+.head > p{
+    padding:20px 0px;
+}
+.head > .start{
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    border-radius:50px;
+    padding:10px;
+    margin-top:10px;
+}
+.books-grid{
+    width: 100%;
+    height: 45%;
+    margin-top:70px; 
+}
+.books-grid > h5{
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom:8px;
+    display: inline-block;
+    width: 95%;
+}
+.frame-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame-container > .frame{
+    width: 20%;
+    height: 89%;
+    margin-top :1%;
+    text-align: center;
+    
+}
+.frame-container > .frame > img{
+    width:140px;
+    height:200px;
+    object-fit:cover;
+    object-position: center;
+    box-shadow: 0px 0px 10px black;
+}
+.frame-container > .frame > p{
+    font-size:13px;
+    padding-top:8px;
+}
+
+.open-book{
+    width:440px;
+    height:310px;
+    position: absolute;
+    top:8%;
+    right: 21.5%;
+}
+.open-book > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 8px 8px 14px rgba(64, 63, 63, 0.87);
+}
+
+.last{
+    width: 36%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    padding:10px 30px;
+}
+.last > .profile{
+    width: 45%;
+    height:40px;
+    margin-top:13px;
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+.profile > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 0px 5px black;
+    border:1px solid rgb(255, 255, 255);
+}
+.profile > i{
+    margin-left:30px;
+    font-size: 22px;
+}
+.last > .text{
+    width: 45%;
+    margin-top: 55px;
+}
+.text > h2{
+    color:rgb(125, 25, 159);
+}
+.text > p{
+    font-size: 14px;
+    padding-top:30px;
+}
+.text > p > span{
+    font-size: 13px;
+    color:rgb(163, 2, 2);
+}
+.text > h5{
+    text-align: right;
+    margin-top:13px;
+    font-size: 13px;
+    color:rgb(14, 146, 151);
+}
+.schedule{
+    width: 100%;
+    height: 15%;
+    margin-top:40px;
+}
+.schedule > h3{
+    color:maroon;
+}
+.table{
+    width: 100%;
+}
+.table > ul{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.table > ul > span > li{
+    list-style-type: none;
+    display: inline;
+}
+.comments{
+    width: 100%;
+    height: 27%;
+}
+.comments > h1{
+    font-size:17px;
+    color:maroon;
+    margin:20px 0px;
+}
+.user{
+    padding:0px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.user > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.user > p{
+    font-size:12px;
+    margin-left:20px;
+}
